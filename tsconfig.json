@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "target": "es5",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "lib": ["es2015", "esnext", "dom"],
+    "baseUrl": "./",
+    "types": ["chrome"]
+  }
+}

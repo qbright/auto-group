@@ -1,0 +1,27 @@
+{
+    "name": "Hello, World!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs",
+        "tabGroups",
+        "contextMenus",
+        "storage"
+    ],
+    "action": {
+        "default_title": "Default Title",
+        "default_popup": "./dist/popup/index.html",
+        "default_icon": {
+            "32": "icons/32.png",
+            "72": "icons/72.png",
+            "128": "icons/128.png",
+            "512": "icons/512.png"
+        }
+    },
+    "icons": {
+        "16": "icons/32.png"
+    }
+}
